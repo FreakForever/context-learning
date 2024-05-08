@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ToastContainer, Bounce} from "react-toastify";
 
+// createRoot is our entry point.
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-      <ToastContainer
+    {/* toast visibility. */}
+      {/* <ToastContainer
           position="bottom-right"
           autoClose={5000}
           hideProgressBar={false}
@@ -21,7 +24,7 @@ root.render(
           pauseOnHover
           theme="light"
           transition={Bounce}
-      />
+      /> */}
   </React.StrictMode>
 );
 

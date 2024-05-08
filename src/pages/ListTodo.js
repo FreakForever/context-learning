@@ -21,5 +21,5 @@ function TodoList({ todos = [
         </div>
     );
 }
-
+// what is not fixed will come from the database..
 export default TodoList;
